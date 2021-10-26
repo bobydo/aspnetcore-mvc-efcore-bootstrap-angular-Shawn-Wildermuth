@@ -32,6 +32,9 @@ $(document).ready(function () {
 });
 
 ```
-
-
 <br />Just choose css and webfont
+
+-  MVC file explaination (scaffolding from controller) <br>
+https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/adding-model?view=aspnetcore-5.0&tabs=visual-studio <br>
+![image](https://user-images.githubusercontent.com/64368109/138923452-2386ee57-138c-46c5-9ca5-5121c227b778.png) <br>
+
