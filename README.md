@@ -38,3 +38,5 @@ $(document).ready(function () {
 https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/adding-model?view=aspnetcore-5.0&tabs=visual-studio <br>
 ![image](https://user-images.githubusercontent.com/64368109/138923452-2386ee57-138c-46c5-9ca5-5121c227b778.png) <br>
 
+-  Added tag helper to all view pages
+![image](https://user-images.githubusercontent.com/64368109/138972297-32d409ab-3a0c-4a03-9b24-94ee631d9f94.png)
