@@ -40,3 +40,32 @@ https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/adding-mode
 
 -  Added tag helper to all view pages
 ![image](https://user-images.githubusercontent.com/64368109/138972297-32d409ab-3a0c-4a03-9b24-94ee631d9f94.png)
+
+-  Added Error page (no controller is required)
+```
+Step1:
+      if (env.IsDevelopment())
+      {
+        app.UseDeveloperExceptionPage();
+      }
+      else
+      {
+        // Add Error Page
+        app.UseExceptionHandler("/error");
+      }
+      
+Step2: Added Pages/Error.cshtml
+@page
+<h2>Sorry...</h2>
+<p>We've had a problem. Please retry later...</p>
+
+Step3:
+Added _ViewStart.cshtml to keep layout
+
+Step4: added service and route
+services.AddControllersWithViews()
+  .AddRazorRuntimeCompilation();
+services.AddRazorPages();
+
+cfg.MapRazorPages();
+```
