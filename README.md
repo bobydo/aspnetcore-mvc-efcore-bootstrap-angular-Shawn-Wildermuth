@@ -69,3 +69,5 @@ services.AddRazorPages();
 
 cfg.MapRazorPages();
 ```
+-  Practical Refactoring - How to clean code in many small steps <br>
+https://www.youtube.com/watch?v=aWiwDdx_rdo
